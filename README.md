@@ -16,23 +16,24 @@ sass : scss,
 images : images
 
 ###安装
-windows：
+- windows：
+
 > 双击 `grunt_install_for_windows`
 
-mac：
+- mac：
 
 
-###Live reload 
+### Live reload 
 
 - 1、Browser (Chrome\Firefox\Safari)Pluins
 http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-
 
-- 2、Open file .html with "http://localhost/**/.html"
+- 2、Open file .html with ""
 
 - 3、Click the livereload icon。
 
-On dev
-`grunt`
+### 工作
 
-On build
-`grunt build`
+- 监听工作目录 `grunt`
+
+- 工作输出 `grunt build`
